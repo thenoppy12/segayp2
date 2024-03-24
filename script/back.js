@@ -1,5 +1,5 @@
 function removeAddressPart() {
-    var currentUrl = document.getElementById("currentUrl").innerText;
+    var currentUrl = document.getElementById("currentUrl");
     var lastSlashIndex = currentUrl.lastIndexOf("/");
     if (lastSlashIndex !== -1) {
         var newUrl = currentUrl.substring(0, lastSlashIndex);
